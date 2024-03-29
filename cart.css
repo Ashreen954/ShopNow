@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to top right,#f8b500,#fceabb);
+    padding: 9px;
+}
+.nav-left{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-left img{
+    display: inline;
+    margin-left: 55px;
+}
+.nav-left h1{
+    margin-left: 25px;
+    margin-top: 13px;
+    font-size: 1.6rem;
+}
+.nav-middle{
+  margin-top: 20px;
+}
+.tab input{
+  width: 200px;
+  display: inline;
+}
+.nav-right ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right:30px;
+}
+.nav-right li{
+    margin-top: 13px;
+    margin-right:70px;
+    padding: 2px 2px;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+.nav-right a{
+    text-decoration: none;
+    color: black;
+}
+.nav-right li:hover{
+  border: 1px solid black;
+}
+.tab{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    width: 400px;
+    margin-top: 13px;
+  }
+  .tab input{
+  width: 100%;
+  font-size: 0.9rem;
+  }
+  .ash-icon{
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-left: 3px;
+  }
+/* header */
+header{
+    margin-top: 40px;
+    margin-left: 90px;
+}
+
+.pic-slider ul{
+    list-style: none;
+    margin-right:30px;
+    overflow: hidden;
+}
+.parent{
+    display: flex;
+}
+.btnImage{
+    margin-top: 5px;
+    margin-left:120px; 
+    background-color: rgb(253, 22, 22);
+    color: #fff;
+    font-size: 1.3rem;
+    width: 400px;
+    padding:4px 0px ;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.info{
+    margin-left: 30px;
+}
+.imgBox{
+    position: relative;
+}
+.heartimg{
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.imgBox i:hover{
+    color: red;
+    border: 2px solid green;
+    /* background-color: green; */
+}
+ul{
+    margin-left:20px;
+}
+li{
+    margin-bottom: 3px;
+}
+#size{
+    font-size: 1rem;
+    cursor: pointer;
+}
+ /* footer */
+ footer{
+    background-color: #3b3535;
+    color: #fff;
+  }
+  .mem{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  }
+  .mem li{
+    padding-top: 5px;
+    list-style: none;
+  }
+  .mem a{
+    color: #fff;
+    text-decoration: none;
+  }
+  .shop{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
